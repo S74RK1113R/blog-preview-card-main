@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@theme{
+    --color-blog-Yellow: hsl(47, 88%, 63%);
+    --color-blog-Gray-500: hsl(0, 0%, 42%);
+    --color-blog-Gray-950: hsl(0, 0%, 7%);
+
+    --shadow-blog-shadow-Gray-950: 10px 10px hsl(0, 0%, 7%);
+}
+html,body,#root{
+    @apply h-full bg-blog-Yellow;
+    font-family: 'Figtree Variable';
+}
