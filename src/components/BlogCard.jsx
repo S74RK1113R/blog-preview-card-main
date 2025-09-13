@@ -4,7 +4,7 @@ import ilustratioArticle from "../assets/illustration-article.svg";
 export default function BlogCard() {
   return (
     
-    <div className="w-sm bg-white rounded-3xl flex flex-col items-start justify-center border-2 shadow-blog-Gray-950 shadow-blog-shadow-Gray-950">
+    <div className="w-md bg-white rounded-3xl flex flex-col items-start justify-center border-2 shadow-blog-Gray-950 shadow-blog-shadow-Gray-950">
         <div className="px-8 pt-8 w-full ">
           <img className="rounded-xl w-full" src={ilustratioArticle} alt="Ilustration article" />
         </div>
